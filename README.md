@@ -1,6 +1,6 @@
 # STM32 CAN Automotive Dashboard
 
-**▶ [Live Demo](https://saravanakumart362-create.github.io/stm32-can-automotive-dashboard/)** — the dashboard, the virtual test bench and the 3D car running in the browser on a *simulated* CAN bus. The real system runs on 5 STM32 boards: see the [hardware video](docs/assets/demo/dashboard_demo.md) and the [Saleae captures](docs/assets/demo/saleae_bitlevel_decode.md).
+**▶ [Live Demo](https://saravanakumart362-create.github.io/demo/)** — the dashboard, the virtual test bench and the 3D car running in the browser on a *simulated* CAN bus. The real system runs on 5 STM32 boards: see the [hardware video](docs/assets/demo/dashboard_demo.md) and the [Saleae captures](docs/assets/demo/saleae_bitlevel_decode.md).
 
 A distributed automotive telemetry and control system built on five independent STM32 nodes communicating over a shared CAN bus, each paired with its own real-time PyQt5 supervision dashboard.
 
