@@ -277,3 +277,10 @@ Select the board's serial port in the Connection panel, then click **Connect**:
 - **macOS:** the board typically enumerates as `/dev/tty.usbmodemXXXX`.
 
 The exact port name depends on the host machine and USB port used, so check your OS's device list if the expected port doesn't appear.
+
+### Dashboard without hardware
+```bash
+pip install PyQt5 pyserial numpy
+python dashboard/stm32_dashboard.py --sim --3d
+```
+Opens the dashboard, the virtual test bench (`--sim`) and the 3D virtual car (`--3d`) together on one simulated CAN bus, so no board is needed. Either flag can be used on its own.
